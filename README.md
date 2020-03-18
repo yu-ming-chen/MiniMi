@@ -10,7 +10,7 @@ Minimi is an app targeted at people suffering from depression by providing them 
 Users have a pet that they take care of by performing tasks that can act as therapy for the user.
 It is aimed at encouraging users to look after themselves and engage their communities.
 
-Team Member:
+#### Team Members:
 1. Chen Yu Ming
 2. David Liew
 3. Ekam
