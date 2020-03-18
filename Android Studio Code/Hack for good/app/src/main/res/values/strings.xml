@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Minimi</string>
+
+    <string-array name="exercise">
+        <item>Activity</item>
+        <item>Running</item>
+        <item>Swimming</item>
+        <item>Ball Sport</item>
+        <item>Gym</item>
+    </string-array>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="chat">Chat</string>
+    <string name="write_a_message">Write a message</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/stats"
+        android:title="Stats"
+        android:icon="@drawable/ic_insert_chart"/>
+
+    <item
+        android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/ic_chat_bubble"/>
+
+    <item
+        android:id="@+id/shop"
+        android:title="Shop"
+        android:icon="@drawable/ic_store_mall_directory"/>
+
+    <item
+        android:id="@+id/mi"
+        android:title="Me"
+        android:icon="@drawable/ic_me"/>
+
+
+</menu>
