@@ -1,3 +1,6 @@
 [submodule "minimi-frontendd"]
 	path = minimi-frontendd
 	url = https://github.com/josiahkhoo/minimi-frontend.git
+[submodule "minimi-django"]
+	path = minimi-django
+	url = https://github.com/josiahkhoo/minimi-django.git
