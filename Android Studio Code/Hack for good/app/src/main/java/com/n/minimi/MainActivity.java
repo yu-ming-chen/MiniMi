@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements RoomListener {
         messagesView = findViewById(R.id.messages_view);
         messagesView.setAdapter(messageAdapter);
 
-        MemberData data = new MemberData("me", getRandomColor());
+        MemberData data = new MemberData("Tom", getRandomColor());
 
         scaledrone = new Scaledrone(channelID, data);
         scaledrone.connect(new Listener() {
