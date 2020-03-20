@@ -1,0 +1,3 @@
+[submodule "minimi-frontendd"]
+	path = minimi-frontendd
+	url = https://github.com/josiahkhoo/minimi-frontend.git
