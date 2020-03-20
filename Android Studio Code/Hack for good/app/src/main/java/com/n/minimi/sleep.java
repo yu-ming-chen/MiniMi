@@ -2,6 +2,7 @@ package com.n.minimi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -37,11 +38,8 @@ public class sleep extends AppCompatActivity {
             timer.stop();
             pauseOffset = SystemClock.elapsedRealtime() - timer.getBase();
             running = false;
+            Intent myIntent = new Intent(this, me.class);
+            startActivity(myIntent);
         }
-    }
-
-    public void resetTimer(View v) {
-        timer.setBase(SystemClock.elapsedRealtime());
-        pauseOffset = 0;
     }
 }

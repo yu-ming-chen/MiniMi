@@ -34,13 +34,38 @@ public class me extends AppCompatActivity {
             }
         });
 
-        Button next2 = (Button) findViewById(R.id.exercise);
-        next2.setOnClickListener(new View.OnClickListener() {
+        Button exercise = (Button) findViewById(R.id.exercise);
+        exercise.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), ExerciseActivity.class);
                 startActivity(myIntent);
             }
         });
+
+        Button eat = (Button) findViewById(R.id.eat);
+        eat.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), EatActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button social = (Button) findViewById(R.id.social);
+        social.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Social.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button stress = (Button) findViewById(R.id.stress);
+        stress.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), StressActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
 
         //Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);

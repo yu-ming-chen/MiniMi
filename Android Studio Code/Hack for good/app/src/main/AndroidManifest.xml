@@ -11,18 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExerciseActivity">
-        </activity>
+        <activity android:name=".ExerciseActivity"/>
+        <activity android:name=".EatActivity"/>
+        <activity android:name=".Social" />
         <activity android:name=".sleep" />
-        <activity android:name=".Shop" />
-        <activity android:name=".me" />
-        <activity android:name=".Dashboard" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Shop">
+
+        </activity>
+        <activity android:name=".me">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".StressActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 

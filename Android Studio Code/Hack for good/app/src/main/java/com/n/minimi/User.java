@@ -19,6 +19,6 @@ public class User {
         this.Height = Height;
         this.Weight = Weight;
         this.pet = new Pet(calories(Height,Weight));
-        this.shop = new Shop(shopItems);
+        //this.shop = new Shop(shopItems);
     }
 }

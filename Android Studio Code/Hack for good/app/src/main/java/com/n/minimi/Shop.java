@@ -14,22 +14,22 @@ import java.util.List;
 
 public class Shop extends AppCompatActivity {
 
-    private List<Item> myItems;
-    private List<Item> shopItems;
-
-    Shop(List<Item> shopItems){
-        this.myItems = new ArrayList<>();
-        this.shopItems = shopItems;
-    }
-
-    public void purchase(Item item){
-        myItems.add(item);
-        shopItems.remove(item);
-    }
-
-    public boolean contains(Item item){
-        return myItems.contains(item);
-    }
+//    private List<Item> myItems;
+//    private List<Item> shopItems;
+//
+//    Shop(List<Item> shopItems){
+//        this.myItems = new ArrayList<>();
+//        this.shopItems = shopItems;
+//    }
+//
+//    public void purchase(Item item){
+//        myItems.add(item);
+//        shopItems.remove(item);
+//    }
+//
+//    public boolean contains(Item item){
+//        return myItems.contains(item);
+//    }
 
 
     @Override

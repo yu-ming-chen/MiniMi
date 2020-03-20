@@ -1,5 +1,6 @@
 package com.n.minimi;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -14,26 +15,26 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class ExerciseActivity extends AppCompatActivity {
-    int calories;
-    String dish;
-
+    int time;
+    String exercise;
     EditText number;
     EditText text;
-
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
         button = (Button) findViewById(R.id.button);
+        number = findViewById(R.id.timeBtn);
+        text = findViewById(R.id.nameBtn);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dish = text.getText().toString();
-                calories = Integer.parseInt(number.getText().toString());
-
-                showToast(dish);
-                showToast(String.valueOf(calories));
+                exercise = text.getText().toString();
+                time = Integer.parseInt(number.getText().toString());
+                showToast("Activity: " + exercise + " | Duration: " + time +"mins");
+                Intent myIntent = new Intent(v.getContext(), me.class);
+                startActivity(myIntent);
             }
         });
 
