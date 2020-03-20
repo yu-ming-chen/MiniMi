@@ -15,6 +15,7 @@
         <activity android:name=".EatActivity"/>
         <activity android:name=".Social" />
         <activity android:name=".sleep" />
+        <activity android:name=".Purchase" android:theme="@style/AppTheme.CustomThem"></activity>
         <activity android:name=".Shop">
 
         </activity>
